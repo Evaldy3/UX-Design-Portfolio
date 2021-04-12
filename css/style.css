@@ -1,0 +1,194 @@
+
+body
+{
+    background-color: #FFFC52;
+    font-family: 'Abril Fatface', cursive;
+}
+
+li, a
+{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.nav_links
+{
+  list-style: none;
+  display: flex;
+}
+
+.nav_links li a
+{
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+
+.openMenu {
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+.icons 
+{
+  font-size: 18px;
+  letter-spacing: 25px;
+  margin-top: 2px;
+  margin-left:30px;
+}
+
+.nav_links .closeMenu  i {
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {color: rgb(0, 110, 255);}
+.fa-twitter:hover {color: rgb(86, 154, 243);}
+.fa-instagram:hover {color: rgb(255, 0, 191);}
+.fa-linkedin-in:hover {color: #0274B3;}
+.fa-github:hover {color: rgb(0, 0, 0);}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.closeMenu
+{
+    display: none;
+}
+/*
+.txt1
+{
+    text-align: center;
+}
+*/
+
+@media(max-width: 800px){
+    .nav_links {
+        height:100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FFFC52;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    li a
+    {
+        margin-top: 30px;
+    }
+    .closeMenu 
+    {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 25px;
+    }
+
+    .icons
+    {
+        margin-top: 160px;
+        margin-right: 25px;
+        font-size: 25px;
+    }
+
+    .logo
+    {
+        margin-top: 10px;
+    }
+
+    .openMenu 
+    {
+        display: block;
+        font-size: 25px;
+    }
+
+    .nav_links li a:hover {
+        background: none;
+        color: #000;
+        font-size: 1.6rem;
+    }
+
+}
+
+@media(max-width: 800px)
+{
+    .card
+    {
+        width:25rem ;
+        height: 15rem ;
+        margin-top: 10px;
+    }
+    img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:70%;
+    }
+    .card1
+    {
+        margin-top: 60px;
+    }
+
+   .txt1
+    {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+   
+    
+    
+}
+
+@media(min-width:1200px)
+{
+    img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:80%;
+    }
+    
+    .card
+    {
+        width:35rem ;
+        height: 25rem ;
+    }
+
+    .card1
+    {
+        margin-top: 160px;
+    }
+
+    .card2
+    {
+        margin-top: 30px;
+    }
+
+    .txt1
+    {
+        margin-left: 340px;
+        margin-top: 120px;
+    }
+    
+}
