@@ -4,7 +4,7 @@ body
     background-color: #FFFC52;
     font-family: 'Abril Fatface', cursive;
 }
-
+/* work page */
 li, a
 {
     font-weight: 500;
@@ -25,6 +25,7 @@ li, a
 {
   list-style: none;
   display: flex;
+  
 }
 
 .nav_links li a
@@ -190,5 +191,127 @@ li, a
         margin-left: 340px;
         margin-top: 120px;
     }
+
+    li a:hover
+    {
+        color: #000;
+    }
     
 }
+
+/* work page */
+
+/* About page */
+
+.quote
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.topic
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+
+
+.profil
+{
+    margin-top: 85px;
+}
+
+.btn-outline-dark
+{
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+.fa-envelope
+{
+    font-size: 20px;
+}
+.fa-envelope:hover
+{
+    font-size: 50px;
+    color: #000;
+}
+
+#linkedin
+{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#linkedin:hover
+{
+    font-size: 50px;
+}
+
+.resume
+{
+    margin-left: 30px;
+}
+
+.design
+{
+    margin-top: 50px;
+   
+}
+
+.contact
+{
+    margin-top: 30px;
+}
+
+
+#github
+{
+    font-size: 20px;
+}
+
+#github:hover
+{
+    font-size: 50px;
+    color: #000;
+}
+
+@media (max-width: 800px)
+{
+    .display-5
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+     .topic, .quote, .info
+    {
+        text-align: center;
+    }
+    
+     .contact
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .design
+    {
+        margin-top: 25px;
+    }
+    
+    
+}
+/* About page */
+
+
+/* Footer */
+.footer
+{
+    margin-top:  50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Footer */
