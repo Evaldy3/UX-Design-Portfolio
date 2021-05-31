@@ -128,10 +128,29 @@ li, a
         font-size: 1.6rem;
     }
 
-}
+    .display-5
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+     .topic, .quote, .info
+    {
+        text-align: center;
+    }
+    
+     .contact
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-left: 35px;
+    }
 
-@media(max-width: 800px)
-{
+    .design
+    {
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    
     .card
     {
         width:25rem ;
@@ -152,15 +171,15 @@ li, a
 
    .txt1
     {
-        margin-left: 40px;
-        margin-top: 40px;
+        text-align: center;
     }
    
-    
-    
+
 }
 
-@media(min-width:1200px)
+
+
+@media(min-width:768px)
 {
     img
     {
@@ -196,7 +215,16 @@ li, a
     {
         color: #000;
     }
-    
+
+    .contact
+    {
+        margin-top: 0;
+    }
+        
+    .design
+    {
+      margin-left: 30px;
+    }
 }
 
 /* work page */
@@ -261,48 +289,17 @@ li, a
    
 }
 
-.contact
-{
-    margin-top: 30px;
-}
+
+
 
 
 #github
 {
-    font-size: 20px;
-}
-
-#github:hover
-{
-    font-size: 50px;
+    font-size: 40px;
     color: #000;
 }
 
-@media (max-width: 800px)
-{
-    .display-5
-    {
-        text-align: center;
-        margin-top: 20px;
-    }
-     .topic, .quote, .info
-    {
-        text-align: center;
-    }
-    
-     .contact
-    {
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
 
-    .design
-    {
-        margin-top: 25px;
-    }
-    
-    
-}
 /* About page */
 
 
@@ -311,7 +308,8 @@ li, a
 {
     margin-top:  50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+   font-size: 15px;  
 }
+
 
 /* Footer */
