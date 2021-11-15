@@ -68,8 +68,8 @@ li, a
 {
     display: none;
 }
-/*
-.txt1
+
+/*.txt1
 {
     text-align: center;
 }
@@ -86,12 +86,12 @@ li, a
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #FFFC52;
+        background: #ffffff;
         transition: top 1s ease;
         display: none;
     }
 
-    li a
+   .nav_links li a
     {
         margin-top: 30px;
     }
@@ -127,6 +127,14 @@ li, a
         color: #000;
         font-size: 1.6rem;
     }
+    .card a:hover
+    {
+        width:25rem ;
+        height: 25rem ;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
 
     .display-5
     {
@@ -157,6 +165,8 @@ li, a
         height: 15rem ;
         margin-top: 10px;
     }
+
+  
     img
     {
         display: block;
@@ -164,6 +174,7 @@ li, a
         margin-right: auto;
         width:70%;
     }
+  
     .card1
     {
         margin-top: 60px;
@@ -173,7 +184,18 @@ li, a
     {
         text-align: center;
     }
-   
+    .typo
+    {
+        text-align: center;
+        margin-top: 10%;
+        font-size: 40px;
+    }
+    .typo1
+    {
+        text-align: center;
+        margin-top: 20%;
+        font-size: 40px;
+    }
 
 }
 
@@ -181,6 +203,7 @@ li, a
 
 @media(min-width:768px)
 {
+ 
     img
     {
         display: block;
@@ -188,7 +211,14 @@ li, a
         margin-right: auto;
         width:280px;
     }
+   
     .typo
+    {
+        text-align: center;
+        margin-top: 10%;
+        font-size: 80px;
+    }
+    .typo1
     {
         text-align: center;
         margin-top: 10%;
@@ -208,6 +238,7 @@ li, a
         background-color: black;
         text-decoration: none;
     }
+    
 
     .card1
     {
@@ -328,3 +359,17 @@ li, a
 
 
 /* Footer */
+
+/* Digital Art page */
+
+.digi-art1
+{
+    width: 30%;
+    margin-bottom: 70px;
+}
+.digi-art2
+{
+    width: 30%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
